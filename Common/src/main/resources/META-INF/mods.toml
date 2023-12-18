@@ -1,14 +1,14 @@
 modLoader="javafml"
 loaderVersion="*"
 license="All rights reserved"
-issueTrackerURL="https://github.com/ricksouth/serilum-mc-mods/labels/Mod:%20Bottled%20Air"
+issueTrackerURL="https://github.com/Serilum/.issue-tracker/labels/Mod:%20Bottled%20Air"
 logoFile="icon.png"
 
 [[mods]]
 modId="bottledair"
-version="2.2"
+version="2.3"
 displayName="Bottled Air"
-displayURL="https://curseforge.com/minecraft/mc-mods/bottled-air"
+displayURL="https://serilum.com/mod/bottled-air"
 authors="Rick South"
 description='''Allows players to breathe in empty glass bottles underwater to get more air, configurable.
 '''
@@ -21,13 +21,15 @@ If you would like to contribute too, check out https://ricksouth.com/donate. App
 
 [[dependencies.bottledair]]
     modId="collective"
+    type="required"
     mandatory=true
-    versionRange="[7.3,)"
+    versionRange="[7.21,)"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies.bottledair]]
     modId="minecraft"
+    type="required"
     mandatory=true
     versionRange="[1.19.2]"
     ordering="NONE"
