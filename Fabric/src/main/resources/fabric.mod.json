@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "bottledair",
+  "version": "2.4",
+
+  "name": "Bottled Air",
+  "description": "Allows players to breathe in empty glass bottles underwater to get more air, configurable.",
+  "authors": [ "Rick South" ],
+  "contact": {
+    "homepage": "https://serilum.com/mod/bottled-air",
+    "sources": "https://github.com/Serilum/Bottled-Air",
+    "issues": "https://github.com/Serilum/.issue-tracker/labels/Mod:%20Bottled%20Air"
+  },
+
+  "license": "All Right Reserved",
+  "icon": "icon.png",
+
+  "environment": "*",
+  "entrypoints": { "main": [ "com.natamus.bottledair.ModFabric" ], "modmenu": [ "com.natamus.bottledair.fabric.config.IntegrateModMenu" ] },
+
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric": "*",
+    "minecraft": ">=1.21",
+    "java": ">=21",
+    "collective": ">=7.88"
+  },
+
+  "custom": {
+    "modmenu": {
+      "links": {
+        "Donate <3" : "https://ricksouth.com/donate"
+      }
+    }
+  },
+
+  "contributors": [
+	  " ",
+	  "Thank you very much to my Membership sponsors for supporting the development of this mod!",
+	  " ",
+	  "If you would like to contribute too, check out https://serilum.com/donate.",
+	  " ",
+	  "Membership sponsors:",
+	  " Alister",
+	  " Andrean Olgo",
+	  " aternosorg",
+	  " Cherriesaurus",
+	  " kate1073",
+	  " Michael W. S.",
+	  " Tyler Behl",
+	  " XAgent"
+  ]
+}
