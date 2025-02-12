@@ -4,9 +4,7 @@ import com.natamus.bottledair.events.AirEvent;
 import net.minecraft.world.InteractionResult;
 import net.neoforged.neoforge.event.entity.player.PlayerInteractEvent;
 import net.neoforged.bus.api.SubscribeEvent;
-import net.neoforged.fml.common.EventBusSubscriber;
 
-@EventBusSubscriber
 public class NeoForgeAirEvent {
 	@SubscribeEvent
 	public static void onBottleClick(PlayerInteractEvent.RightClickItem e) {

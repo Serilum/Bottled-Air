@@ -32,7 +32,7 @@ public class ModForge {
 	}
 
 	private void loadComplete(final FMLLoadCompleteEvent event) {
-    	MinecraftForge.EVENT_BUS.register(new ForgeAirEvent());
+    	MinecraftForge.EVENT_BUS.register(ForgeAirEvent.class);
 	}
 
 	private static void setGlobalConstants() {
