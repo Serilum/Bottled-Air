@@ -1,0 +1,15 @@
+package com.natamus.bottledair.forge.events;
+
+import com.natamus.bottledair.events.AirEvent;
+import net.minecraft.world.InteractionResult;
+import net.minecraftforge.event.entity.player.PlayerInteractEvent;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+
+public class ForgeAirEvent {
+	@SubscribeEvent
+	public static void onBottleClick(PlayerInteractEvent.RightClickItem e) {
+		if (AirEvent.onBottleClick(e.getEntity(), e.getLevel(), e.getHand()).equals(InteractionResult.FAIL)) {
+			e.setCanceled(true);
+		}
+	}
+}
