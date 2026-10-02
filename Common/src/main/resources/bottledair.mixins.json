@@ -1,7 +1,7 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "com.natamus.bottledair.mixin",
+  "package": "com.serilum.bottledair.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
 

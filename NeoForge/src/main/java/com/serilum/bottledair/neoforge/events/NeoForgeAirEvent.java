@@ -1,0 +1,15 @@
+package com.serilum.bottledair.neoforge.events;
+
+import com.serilum.bottledair.events.AirEvent;
+import net.minecraft.world.InteractionResult;
+import net.neoforged.neoforge.event.entity.player.PlayerInteractEvent;
+import net.neoforged.bus.api.SubscribeEvent;
+
+public class NeoForgeAirEvent {
+	@SubscribeEvent
+	public static void onBottleClick(PlayerInteractEvent.RightClickItem e) {
+		if (AirEvent.onBottleClick(e.getEntity(), e.getLevel(), e.getHand()).getResult().equals(InteractionResult.FAIL)) {
+			e.setCanceled(true);
+		}
+	}
+}
