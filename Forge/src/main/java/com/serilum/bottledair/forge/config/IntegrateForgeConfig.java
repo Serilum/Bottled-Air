@@ -1,7 +1,7 @@
-package com.natamus.bottledair.forge.config;
+package com.serilum.bottledair.forge.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.bottledair.util.Reference;
+import com.serilum.bottledair.util.Reference;
 import net.minecraftforge.client.ConfigScreenHandler;
 import net.minecraftforge.fml.ModLoadingContext;
 

@@ -1,7 +1,7 @@
-package com.natamus.bottledair.events;
+package com.serilum.bottledair.events;
 
-import com.natamus.bottledair.config.ConfigHandler;
-import com.natamus.bottledair.util.Util;
+import com.serilum.bottledair.config.ConfigHandler;
+import com.serilum.bottledair.util.Util;
 import com.natamus.collective.data.GlobalVariables;
 import com.natamus.collective.functions.ItemFunctions;
 import com.natamus.collective.functions.PlayerFunctions;

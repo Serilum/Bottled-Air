@@ -1,6 +1,6 @@
-package com.natamus.bottledair;
+package com.serilum.bottledair;
 
-import com.natamus.bottledair.config.ConfigHandler;
+import com.serilum.bottledair.config.ConfigHandler;
 
 public class ModCommon {
 

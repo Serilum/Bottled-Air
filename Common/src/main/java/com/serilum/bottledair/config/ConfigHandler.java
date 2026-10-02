@@ -1,7 +1,7 @@
-package com.natamus.bottledair.config;
+package com.serilum.bottledair.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.bottledair.util.Reference;
+import com.serilum.bottledair.util.Reference;
 
 import java.util.Arrays;
 import java.util.HashMap;

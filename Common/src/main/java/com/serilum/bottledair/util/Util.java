@@ -1,4 +1,4 @@
-package com.natamus.bottledair.util;
+package com.serilum.bottledair.util;
 
 import java.util.Arrays;
 import java.util.List;

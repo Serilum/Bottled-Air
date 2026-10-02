@@ -1,8 +1,8 @@
-package com.natamus.bottledair;
+package com.serilum.bottledair;
 
-import com.natamus.bottledair.forge.config.IntegrateForgeConfig;
-import com.natamus.bottledair.forge.events.ForgeAirEvent;
-import com.natamus.bottledair.util.Reference;
+import com.serilum.bottledair.forge.config.IntegrateForgeConfig;
+import com.serilum.bottledair.forge.events.ForgeAirEvent;
+import com.serilum.bottledair.util.Reference;
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
 import net.minecraftforge.common.MinecraftForge;
@@ -32,7 +32,7 @@ public class ModForge {
 	}
 
 	private void loadComplete(final FMLLoadCompleteEvent event) {
-    	MinecraftForge.EVENT_BUS.register(ForgeAirEvent.class);
+		MinecraftForge.EVENT_BUS.register(ForgeAirEvent.class);
 	}
 
 	private static void setGlobalConstants() {

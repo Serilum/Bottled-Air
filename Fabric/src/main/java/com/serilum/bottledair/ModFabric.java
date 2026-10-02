@@ -1,7 +1,7 @@
-package com.natamus.bottledair;
+package com.serilum.bottledair;
 
-import com.natamus.bottledair.events.AirEvent;
-import com.natamus.bottledair.util.Reference;
+import com.serilum.bottledair.events.AirEvent;
+import com.serilum.bottledair.util.Reference;
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
 import net.fabricmc.api.ModInitializer;

@@ -1,7 +1,7 @@
-package com.natamus.bottledair.fabric.config;
+package com.serilum.bottledair.fabric.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.bottledair.util.Reference;
+import com.serilum.bottledair.util.Reference;
 import com.terraformersmc.modmenu.api.ConfigScreenFactory;
 import com.terraformersmc.modmenu.api.ModMenuApi;
 

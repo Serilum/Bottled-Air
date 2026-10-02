@@ -1,6 +1,6 @@
-package com.natamus.bottledair.forge.events;
+package com.serilum.bottledair.forge.events;
 
-import com.natamus.bottledair.events.AirEvent;
+import com.serilum.bottledair.events.AirEvent;
 import net.minecraft.world.InteractionResult;
 import net.minecraftforge.event.entity.player.PlayerInteractEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
